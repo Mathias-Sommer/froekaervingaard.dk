@@ -96,7 +96,9 @@ const Navbar = () => {
               className="hover:opacity-80 cursor-pointer transition border-b border-white pb-2"
               onClick={() => setIsOpen(false)}
             >
-              <Link to={path}>{name}</Link>
+              <Link to={path} className="block px-4 py-3">
+                {name}
+              </Link>
             </li>
           ))}
         </ul>
