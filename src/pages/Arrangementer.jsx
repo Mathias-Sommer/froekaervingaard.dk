@@ -17,24 +17,13 @@ function Arrangementer() {
           <h1 className="text-5xl md:text-7xl font-black text-[#f3f3f3] tracking-[-0.04em] mb-6 text-center">
             Arrangementer
           </h1>
-          <p className="text-[#ffffff] text-2xl opacity-50 tracking-[-0.04em] max-w-2xl text-center mb-8">
+          <p className="text-[#ffffff] text-2xl opacity-50 tracking-[-0.04em] max-w-2xl text-center">
             Oplev unikke arrangementer på Frøkær Vingård – fra hyggelige
             omgivelser til festlige aftener med historie, tapas og vin i
             særklasse.
           </p>
         </div>
         <div className="w-full px-[5%] flex flex-wrap gap-10 justify-center mb-16">
-          <ArrangementKort
-            title="Udlejning af lokaler"
-            subtitle="Mulighed for at leje vores orangeri til dit arrangement"
-            description="Kontakt os for at høre nærmere"
-            price="Starter fra 500 DKK"
-            items={[
-              "Udlejning af orangeri",
-              "Vin og tapas kan tilkøbes",
-              "Afrydning af lokaler",
-            ]}
-          />
           <ArrangementKort
             title="Vinsmagning"
             subtitle="En oplevelse for vinelskere med smagsprøver og rundvisning"

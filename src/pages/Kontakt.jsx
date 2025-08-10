@@ -10,16 +10,9 @@ const Kontakt = () => {
       <Navbar />
       <main className="flex flex-col items-center min-h-screen bg-gradient-to-br from-[#f8fafc] via-[#f1f5f9] to-[#e2e8f0] px-4">
         <section className="w-full max-w-3xl flex flex-col items-center text-center mt-4 mb-10">
-          <div className="w-full px-[5%] py-[40px] flex flex-col items-center justify-center bg-[#191919]">
-            <h1 className="text-5xl md:text-7xl font-black text-[#f3f3f3] tracking-[-0.04em] mb-6 text-center">
-              Arrangementer
-            </h1>
-            <p className="text-[#ffffff] text-2xl opacity-50 tracking-[-0.04em] max-w-2xl text-center mb-8">
-              Oplev unikke arrangementer på Frøkær Vingård – fra hyggelige
-              omgivelser til festlige aftener med historie, tapas og vin i
-              særklasse.
-            </p>
-          </div>
+          <h1 className="text-5xl md:text-6xl font-bold tracking-tight text-[#191919] mb-6">
+            Kontakt os
+          </h1>
           <p className="text-xl md:text-2xl text-[#191919]/80 max-w-2xl mb-2">
             Har du spørgsmål eller vil du besøge os? Her finder du vores
             kontaktoplysninger.
@@ -55,10 +48,10 @@ const Kontakt = () => {
               <span>
                 <span className="font-semibold">Email:</span>{" "}
                 <a
-                  href="mailto:info@froekaervingaard.dk"
+                  href="mailto:kontakt@froekaervingaard.dk"
                   className="text-[#6366f1] hover:underline"
                 >
-                  info@froekaervingaard.dk
+                  kontakt@froekaervingaard.dk
                 </a>
               </span>
             </div>

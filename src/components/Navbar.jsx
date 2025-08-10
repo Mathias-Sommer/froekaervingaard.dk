@@ -4,6 +4,7 @@ import { Link, useNavigate } from "react-router";
 const navItems = [
   { name: "Hjem", path: "/" },
   { name: "Arrangementer", path: "/arrangementer" },
+  { name: "Vine", path: "/vine" },
   { name: "Shop", path: "https://shop.froekaervingaard.dk" },
   { name: "Om os", path: "/about" },
   { name: "Kontakt", path: "/kontakt" },
