@@ -2,17 +2,21 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router";
 
 // Routes
-import App from "./app";
-import Test from "./pages/Test";
-import "./index.css";
+import Home from "./pages/Home";
+import Arrangementer from "./pages/Arrangementer";
+import Kontakt from "./pages/Kontakt";
+import About from "./pages/About";
+import "./App.css";
 
 const root = document.getElementById("root");
 
 ReactDOM.createRoot(root).render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
-      <Route path="/test" element={<Test />} />
+      <Route path="/" element={<Home />} />
+      <Route path="/arrangementer" element={<Arrangementer />} />
+      <Route path="/kontakt" element={<Kontakt />} />
+      <Route path="/about" element={<About />} />
     </Routes>
   </BrowserRouter>
 );
