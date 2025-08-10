@@ -39,22 +39,39 @@ const vineData = [
       "Elegant mousserende vin med fine bobler og frisk syre. Ideel til festlige lejligheder.",
   },
   {
-    navn: "Placeholder Vin 1",
-    billede: "/vinflaske.png",
-    druetype: "Muscaris",
-    alkohol: "13%",
-    aargang: "2020",
+    navn: "Nattergalen",
+    billede: "/nattergalen.png",
+    druetype: "",
+    alkohol: "%",
+    aargang: "",
     beskrivelse:
-      "Sød dessertvin med noter af honning og abrikos. God til ost og desserter.",
+      "Vinen er fremstillet af 90% Leon Milot og 10% Rondo druer. Vinificeret og lagret på ståltank inden flaskning. ",
   },
   {
-    navn: "Placeholder Vin 1",
-    billede: "/vinflaske.png",
-    druetype: "Muscaris",
-    alkohol: "13%",
-    aargang: "2020",
+    navn: "Nattergalen Perlende",
+    billede: "/nattergalen-perlende.png",
+    druetype: "",
+    alkohol: "",
+    aargang: "",
     beskrivelse:
-      "Sød dessertvin med noter af honning og abrikos. God til ost og desserter.",
+      "Mouserrende vin fremstillet af druen Leon Millot, med carbonisation metoden.",
+  },
+  {
+    navn: "Rødben",
+    billede: "/rodben.png",
+    druetype: "",
+    alkohol: "10%",
+    aargang: "",
+    beskrivelse: "En vin lavet af danske jordbær fra Krogh’s specialiteter.",
+  },
+  {
+    navn: "Viben",
+    billede: "/viben.png",
+    druetype: "",
+    alkohol: "",
+    aargang: "",
+    beskrivelse:
+      "Rødvin lavet af Leon Millot druer. Vinen er fremstillet på rustfri ståltank.",
   },
 ];
 

@@ -76,14 +76,6 @@ const Kontakt = () => {
             ></iframe>
           </div>
         </section>
-        <div className="w-full flex justify-center mb-16">
-          <a
-            onClick={() => navigate("/kontakt")}
-            className="bg-[#191919] text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-[#333] transition"
-          >
-            Kontakt os
-          </a>
-        </div>
       </main>
       <Footer />
     </>
