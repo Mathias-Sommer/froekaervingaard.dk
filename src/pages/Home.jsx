@@ -1,10 +1,14 @@
 import { useNavigate } from "react-router";
+import { useEffect } from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import GalleriSektion from "../components/GalleriSektion";
 
 const Home = () => {
   const navigate = useNavigate();
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <>

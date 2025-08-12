@@ -1,7 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router";
 import "./App.css";
-import ScrollToTop from "./components/ScrollToTop";
 
 // Routes
 import Home from "./pages/Home";
@@ -14,7 +13,6 @@ const root = document.getElementById("root");
 
 ReactDOM.createRoot(root).render(
   <BrowserRouter>
-    <ScrollToTop />
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/arrangementer" element={<Arrangementer />} />
